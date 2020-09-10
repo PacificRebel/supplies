@@ -1,17 +1,15 @@
-import React from 'react';
+import React, { Component } from "react";
 import './App.css';
+import SupplyList from "./Supplylist.js";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-
-        <p>
-          Amazing list of supplies
-        </p>
-      </header>
-    </div>
-  );
+class App extends Component{
+  render(){
+    return(
+      <div className="App">
+        <SupplyList />
+        </div>
+    );
+  }
 }
 
 export default App;

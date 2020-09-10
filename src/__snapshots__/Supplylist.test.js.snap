@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no supplies 1`] = `
+<div
+  className="SupplyList"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <label>
+      Add supply: 
+      <input
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </label>
+    <input
+      type="submit"
+      value="Add supply to list"
+    />
+  </form>
+</div>
+`;
