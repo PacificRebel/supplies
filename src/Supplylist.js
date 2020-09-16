@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Supply from './Supply'
 
 class SupplyList extends Component{
   constructor(props) {
@@ -11,12 +12,6 @@ class SupplyList extends Component{
 
   handleChange(event) {
     this.setState({value: event.target.value});
-  }
-
-  handleSubmit(event) {
-    this.state.notes.push(this.state.value)
-    this.setState({supplies: this.state.supplies});
-    event.preventDefault();
   }
 
   handleSubmit(event) {
